@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:visited {
+	color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background: #101010;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: .012em;
+	color: white;
+	line-height: 1.5;
+	display: block;
+}
+
+div {
+	display: block;
+}
+
+.wrapper {
+	max-width: 1320px;
+	padding: 30px;
+	margin: 0px auto;
+}
+
+.body {
+	padding-left: 100px;
+	position: relative;
+}
+
+#body__menu {
+	width: 70px;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #303030;
+	border: 0px solid black;
+	border-radius: 0px 6px 6px 0px;
+	box-shadow: 0 2px 6px 0 #101010, 0 0 35px 0 #202020;
+}
+
+header {
+	display: block;
+	position: relative;
+}
+
+#hidden_panel {
+	display: none;
+    position: absolute; 
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    background-color: #303030; /* цвет фона */
+    border: 5px solid black;
+    width: 200px; /* ширина блока */
+    height: 100%; /* высота блока */
+    padding: 10px; /* отступы от границ внутри блока */
+    text-align: center; /* выравнивание текста */
+}
+
+header:hover #hidden_panel {
+	display: block;
+	position: absolute;
+	z-index: 2;
+}
+
+#header__logo {
+	color: orange;
+	font-weight: 800;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px;
+}
+
+#nav__profile {
+	margin-top: 50px;
+	padding: 15px;
+}
+
+#nav__main {
+	padding: 15px;
+}
+
+#nav__library {
+	padding: 15px;
+}
+
+#nav__search {
+	padding: 15px;
+}
+
+#nav__themechange {
+	padding: 15px;
+}
+
+.body__right div {
+	background-color: #303030;
+	word-wrap: break-word;
+	padding: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 95%;
+	border: 1px solid orange;
+	border-radius: 7px;
+	box-shadow: 0 2px 6px 0 #101010, 0 0 35px 0 #202020;
+}
+
+div.pop_title {
+	width: 200px;
+	height: 250px;
+	padding: 5px;
+	margin-bottom: 20px;
+	border: 0px;
+	box-shadow: 0 0px 0px 0 #101010, 0 0 0px 0 #202020;
+}
+
+div.pop_title img {
+	width: 150px;
+	height: 200px;
+	margin-top: 5px;
+}
+
+#last-updates {
+	order: 2;
+}
+
+#recent-titles {
+	order: 3;
+}
